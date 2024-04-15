@@ -1,8 +1,8 @@
 # COVID19_detection_using_Deep_Learning
 This repository detects covid19 from Chest X-RAY images.
-Please go to References  -> Block Diagram Covid Detection.pdf to see the rough block diagram
-#
-The training set is used to train the model; the test set evaluates its performance on unseen data; and the validation set aids in model selection and hyperparameter tuning.
+
+# DataSet
+The training set is used to train the model; the test set evaluates its performance on unseen data; and the validation set aids in model selection and hyperparameter tuning. The COVID19 Radiography Dataset is used here which can be found at https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
 #
 Currently, our entire dataset is very small as we had to run the entire setup on free version of Colab. We have used the very best combination of CNN models from Keras. To achieve higher accuracy on test dataset, please use image augmentation to increase the size of the dataset. Also, this is the most comprehensive covid 19 detection using Deep Learning till date achieving a very good accuracy and other metrics even on such a small dataset.
 # Preprocessing of chest X Rays
