@@ -13,5 +13,6 @@ For pre-processing of chest x rays, we have used the state-of the art model i.e.
 2. VGG19
 3. MobileNet
 4. Xception
+
 All weights are initialized from ImageNet dataset.
 Finally, the CNN models are ensembled with weights given corresponding to the validation accuracies from the 4 models.
