@@ -17,11 +17,27 @@ For pre-processing of chest x rays, we have used the state-of the art model i.e.
 All weights are initialized from ImageNet dataset.
 Finally, the CNN models are ensembled with weights given corresponding to the validation accuracies from the 4 models.
 ## References
+
+```bibtex
 @inproceedings{lee2022surprisingly,
-  title={The Surprisingly Straightforward Scene Text Removal Method with Gated Attention and Region of Interest Generation: A Comprehensive Prominent Model Analysis},
-  author={Lee, Hyeonsu and Choi, Chankyu},
+  title={The Surprisingly Straightforward Scene Text Removal Method with Gated Attention and Region of author={Lee, Hyeonsu and Choi, Chankyu},
   booktitle={European Conference on Computer Vision},
   pages={457--472},
   year={2022},
   organization={Springer}
 }
+@ARTICLE{Erase2020Liu,
+  author     ={Liu, Chongyu and Liu, Yuliang and Jin, lianwen and Zhang, Shuaitao and Luo, Canjie and Wang, Yongpan},
+  journal    ={IEEE Transactions on Image Processing},
+  title      ={EraseNet: End-to-End Text Removal in the Wild},
+  year       ={2020},
+  volume     ={29},
+  pages      ={8760-8775},}
+
+@article{zhang2019EnsNet,
+    title     = {EnsNet: Ensconce Text in the Wild},
+    author    = {Shuaitao Zhang∗, Yuliang Liu∗, Lianwen Jin†, Yaoxiong Huang, Songxuan Lai
+    joural    = {AAAI}
+    year      = {2019}
+  }
+
