@@ -4,7 +4,7 @@ This repository detects covid19 from Chest X-RAY images and classifies it into a
 # DataSet
 The training set is used to train the model; the test set evaluates its performance on unseen data; and the validation set aids in model selection and hyperparameter tuning. The COVID19 Radiography Dataset is used here which can be found at https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database. 
 #
-From this dataset, we have taken 2700 training images, 900 from each of the category(i.e 75%), 360 validation images ,i.e 120 from each of the category(10 %) and 540 testing images i.e 180 from each category (15 %).So, in total we are using 3600 images. This can be found in dataset folder.Note all images are preprocessed with CLAHE + EraseNet + Keras-OCR.
+From this dataset, we have taken 2700 training images, 900 from each of the category(i.e 75%), 360 validation images ,i.e 120 from each of the category(10 %) and 540 testing images i.e 180 from each category (15 %).So, in total we are using 3600 images. The entire dataset can be found in dataset folder.Note all images are preprocessed with CLAHE + EraseNet + Keras-OCR,so you need not do any preprocessing further.
 #
 Currently, our entire dataset is very small as we had to run the entire setup on free version of Colab. We have used the very best combination of CNN models from Keras. To achieve higher accuracy on test dataset, please use image augmentation to increase the size of the dataset. Also, this is the most comprehensive covid 19 detection using Deep Learning till date achieving a very good accuracy and other metrics even on such a small dataset.
 # Preprocessing of chest X Rays
@@ -19,7 +19,7 @@ For pre-processing of chest x rays, we have used the state-of the art model i.e.
 All weights are initialized from ImageNet dataset.
 Finally, the CNN models are ensembled with weights chosen corresponding to the validation accuracies from the 4 models.
 ## Pre-Trained Models 
-The pretrained models can be found at pre-trained moodels folder.
+The pretrained models can be found in the pre-trained models folder.
 ## References
 
 ```bibtex
