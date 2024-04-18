@@ -19,9 +19,10 @@ For pre-processing of chest x rays, we have used the state-of the art model i.e.
 All weights are initialized from ImageNet dataset.
 Finally, the CNN models are ensembled with weights chosen corresponding to the validation accuracies from the 4 models.
 ## Pre-Trained Models 
-The pretrained models can be found at https://drive.google.com/drive/folders/1C2yBVH7eJ1odrAlDy1GoAm7m5xx-UWQb?usp=sharing
+The pretrained models can be found at https://drive.google.com/drive/folders/1C2yBVH7eJ1odrAlDy1GoAm7m5xx-UWQb?usp=sharing.  
+The pretrained model weights can also be found separately at https://drive.google.com/drive/folders/1uJeiCIaUjWcjxyklSMTFvArm9aJN9vhK?usp=sharing.
 ## Web App
-We are also planning to create a web application where in a user can upload his chest x-ray and our model will predict whether the user is healthy, has COVID is suffering from Pneumonia. This is still under development and will be available for the public soon enough. Stay tuned for updates on this github repository.
+We have also developed a web app running on localhost as well. The web app takes a chest X-ray image and our model invoked in the backend predicts whether the person has covid, pneumonia or is a healthy patient. The resources for the web app can be found at https://drive.google.com/drive/folders/1KnZFQEGmBGpQOPzw_jmaPnN3fzNzckp7?usp=sharing. 
 ## References
 
 ```bibtex
